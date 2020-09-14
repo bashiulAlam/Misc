@@ -1,0 +1,13 @@
+ext {
+    bintrayPackage = 'thucydides-gradle-plugin'
+    projectDescription = 'Thucydides Gradle Plugin'
+}
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+
+    compile project(':thucydides-core')
+    testCompile "junit:junit:4.11"
+}
+

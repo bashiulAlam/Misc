@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="KonaMoneyLoadTest">
+    <CLASSES>
+      <root url="jar://F:/Jmeter UAT Test/apache-jmeter-3.3/lib/ext/KonaMoneyLoadTest.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

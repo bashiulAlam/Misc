@@ -1,0 +1,24 @@
+apply plugin: 'groovy'
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+task MyTest(type: Test, overwrite: true) {}
+
+task groovySpock (type: JavaExec, dependsOn: 'MyTest') {
+    sourceSets.main.java.srcDirs = ["main/java"]
+    main = 'main'
+    classpath = sourceSets.main.runtimeClasspath
+    args = []
+}
+
+
+
+dependencies {
+    //compile "org.codehaus.groovy:groovy-all:2.4.1"
+    compile files('libs/groovy-all-2.4.4.jar')
+    compile files('libs/spock-core-1.0-groovy-2.4.jar')
+    //compile "org.spockframework:spock-core-1.0-groovy-2.4"
+}

@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+sourceCompatibility = 1.5
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+task MyTest(type: Test, overwrite: true) {}
+
+task groovySpock (type: JavaExec, dependsOn: 'MyTest') {
+    main = 'com.groovy.testPackage.main'
+    classpath = sourceSets.test.runtimeClasspath
+    args = []
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

@@ -1,0 +1,18 @@
+apply plugin: 'groovy'
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+task MyTest(type: Test, overwrite: true) {}
+
+task groovyExecutable (type: JavaExec, dependsOn: 'MyTest') {
+    main = 'java.Main'
+    classpath = sourceSets.test.runtimeClasspath
+    args = []
+}
+
+dependencies {
+    compile files('libs/groovy-all-2.4.4.jar')
+}

@@ -1,0 +1,22 @@
+repositories {
+	mavenCentral()
+}
+apply plugin: "java"
+
+dependencies {
+	compile "org.apache.commons:commons-lang3:3.3.2"
+}
+
+sourceSets {
+	main.java.srcDir "src/main" 
+	test.java.srcDir "src/test"
+}
+
+jar {
+    from configurations.compile.collect {zipTree it}
+	manifest.attributes "Main-Class": "net.LazyTym.gradleTutorial.Main"
+}
+task runMain(dependsOn:'classes',type:JavaExec) {
+	main = 'Main'
+	classpath = sourceSets.main.runtimeClasspath
+}

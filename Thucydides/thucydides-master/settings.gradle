@@ -1,0 +1,8 @@
+include 'thucydides-test-utils',
+        'thucydides-report-resources',
+        'thucydides-sample-alternative-resources',
+        'thucydides-core',
+        'thucydides-junit',
+        'thucydides-ant-task',
+        'thucydides-gradle-plugin',
+        'thucydides-browsermob-plugin'

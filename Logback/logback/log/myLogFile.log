@@ -1,0 +1,5 @@
+2019-12-22 12:22:42,870 [main] TRACE  com.srccodes.log.LogbackHello - Hello World!
+2019-12-22 12:22:42,903 [main] DEBUG  com.srccodes.log.LogbackHello - Hi, Abhijit
+2019-12-22 12:22:42,903 [main] INFO   com.srccodes.log.LogbackHello - Welcome to the HelloWorld example of Logback.
+2019-12-22 12:22:42,904 [main] WARN   com.srccodes.log.LogbackHello - Dummy warning message.
+2019-12-22 12:22:42,904 [main] ERROR  com.srccodes.log.LogbackHello - Dummy error message.

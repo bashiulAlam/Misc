@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <property name="hibernate.connection.username">map</property>
+        <property name="hibernate.connection.password">map123</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin@118.33.122.43:1521:xe</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.Oracle9Dialect</property>
+        <property name="show_sql">true</property>
+        <property name="connection.pool_size">1</property>
+
+        <mapping class="Employee"></mapping>
+
+        <!--
+        <property name="hbm2ddl.auto">create</property>
+        <property name="dialect">org.hibernate.dialect.Oracle9Dialect</property>
+        <property name="connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
+        <property name="connection.username">system</property>
+        <property name="connection.password">oracle</property>
+        <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        -->
+
+        <mapping resource="Employee.hbm.xml"/>
+    </session-factory>
+
+</hibernate-configuration>
