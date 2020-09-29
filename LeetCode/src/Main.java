@@ -20,6 +20,6 @@ public class Main {
 //        System.out.println(palindromeNumber.reverse(-241));
 
         AToI aToI = new AToI();
-        System.out.println(aToI.myAtoi("  +0 123"));
+        System.out.println(aToI.myAtoi(" +-138"));
     }
 }
