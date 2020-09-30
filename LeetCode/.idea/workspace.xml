@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b15f6a-437a-40be-b0c6-95f60f07be31" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC Sample Project" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC Sample Project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AToI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AToI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practice" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring Boot Course API" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Boot Course API" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring-Boot-Course-API-Data" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-Boot-Course-API-Data" afterDir="false" />
@@ -162,7 +157,7 @@
       <workItem from="1599469342778" duration="30148000" />
       <workItem from="1600063972839" duration="697000" />
       <workItem from="1601354521731" duration="316000" />
-      <workItem from="1601354983475" duration="4821000" />
+      <workItem from="1601354983475" duration="5431000" />
     </task>
     <servers />
   </component>
@@ -182,22 +177,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728/-1920.-74.1920.1080@0.0.1366.728" timestamp="1601355151664" />
-    <state width="1322" height="173" key="GridCell.Tab.0.bottom" timestamp="1601360745296">
+    <state width="1322" height="173" key="GridCell.Tab.0.bottom" timestamp="1601360759055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-74.1920.1080@0.0.1366.728" timestamp="1601360745296" />
-    <state width="1322" height="173" key="GridCell.Tab.0.center" timestamp="1601360745296">
+    <state width="1322" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-74.1920.1080@0.0.1366.728" timestamp="1601360759055" />
+    <state width="1322" height="173" key="GridCell.Tab.0.center" timestamp="1601360759055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="173" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-74.1920.1080@0.0.1366.728" timestamp="1601360745296" />
-    <state width="1322" height="173" key="GridCell.Tab.0.left" timestamp="1601360745296">
+    <state width="1322" height="173" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-74.1920.1080@0.0.1366.728" timestamp="1601360759055" />
+    <state width="1322" height="173" key="GridCell.Tab.0.left" timestamp="1601360759054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="173" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-74.1920.1080@0.0.1366.728" timestamp="1601360745296" />
-    <state width="1322" height="173" key="GridCell.Tab.0.right" timestamp="1601360745296">
+    <state width="1322" height="173" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-74.1920.1080@0.0.1366.728" timestamp="1601360759054" />
+    <state width="1322" height="173" key="GridCell.Tab.0.right" timestamp="1601360759055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="173" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-74.1920.1080@0.0.1366.728" timestamp="1601360745296" />
+    <state width="1322" height="173" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-74.1920.1080@0.0.1366.728" timestamp="1601360759055" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1601355103041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
